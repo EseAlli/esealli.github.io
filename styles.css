@@ -4,34 +4,6 @@
     margin: 0;
 }
 
-@font-face {
-    font-family: 'Bonny-Bold';
-    src: local('Bonny-Bold'),
-         url('../styles/fonts/Bonny-Bold.otf') format("opentype"),
-}
-
-@font-face {
-    font-family: 'Bonny-Light';
-    src: local('Bonny-Light'),
-         url('../styles/fonts/Bonny-Light.otf') format("opentype"),
-}
-@font-face {
-    font-family: 'Bonny-Medium';
-    src: local('Bonny-Medium'),
-         url('../styles/fonts/Bonny-Medium.otf') format("opentype"),
-}
-@font-face {
-    font-family: 'Bonny-Regular';
-    src: local('Bonny-Regular'),
-         url('../styles/fonts/Bonny-Regular.otf') format("opentype"),
-}
-
-@font-face {
-    font-family: 'Bonny-Thin';
-    src: local('Bonny-Thin'),
-         url('../styles/fonts/Bonny-Thin.otf') format("opentype"),
-}
-
 html, body{
     background-color: #FFFFE3;
     color: #000000;
