@@ -148,7 +148,7 @@ a{
     .intro{
         padding: 5px;
         margin-bottom: 15px;
-        text-transform:lowercase
+        text-transform: none
     }
 
     .main-page .doings{
