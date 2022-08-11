@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Bonny-Bold';
+    src: local('Bonny-Bold'),
+         url('../styles/fonts/Bonny-Bold.otf') format("opentype"),
+}
+
+@font-face {
+    font-family: 'Bonny-Light';
+    src: local('Bonny-Light'),
+         url('../styles/fonts/Bonny-Light.otf') format("opentype"),
+}
+@font-face {
+    font-family: 'Bonny-Medium';
+    src: local('Bonny-Medium'),
+         url('../styles/fonts/Bonny-Medium.otf') format("opentype"),
+}
+@font-face {
+    font-family: 'Bonny-Regular';
+    src: local('Bonny-Regular'),
+         url('../styles/fonts/Bonny-Regular.otf') format("opentype"),
+}
+
+@font-face {
+    font-family: 'Bonny-Thin';
+    src: local('Bonny-Thin'),
+         url('../styles/fonts/Bonny-Thin.otf') format("opentype"),
+}
+
+html, body{
+    background-color: #FFFFE3;
+    color: #000000;
+    font-family: 'Bonny', sans-serif;
+    overflow: hidden;
+}
+
+a{
+    color: inherit;
+}
+
+.main-page{
+    height: 100vh;
+    background-color: #FFFFE3;
+    display: grid;
+    overflow: hidden;
+    width: 100%;
+    grid-template-columns: 35% 65%;
+    margin: auto 32px
+}
+
+.main-page .basic-info{
+    padding-top: 70px;
+    border-right: 1px solid #999;
+}
+
+.main-page .basic-info h1{
+    font-size: 128px;
+    font-weight: 400;
+    color: #454040
+}
+
+.main-page .basic-info .title{
+    font-size: 24px;
+}
+
+.main-page .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px 15px 0px 15px;
+}
+
+.intro{
+    padding: 30px 30px 0px 30px;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+
+/* .main-page .intro{
+    grid-column: 6/ 12;
+    grid-row: 1 / 4;
+} */
+
+.main-page .doings{
+    border-top: 1px solid #999;
+    padding: 30px 0px 0px 30px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.projects{
+    margin-top: 12px;
+}
+
+.projects li{
+    list-style-position: inside;
+    margin-bottom: 5px;
+}
+
+.projects a{
+    color: #000000
+}
+
+.doings .blog{
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    .main-page{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        overflow: auto;
+    }
+
+    .main-page .basic-info{
+        padding: 20px
+    }
+
+    .main-page .basic-info h1{
+        font-size: 32px;
+    }
+
+    .intro{
+        padding: 5px;
+        margin-bottom: 15px;
+    }
+
+    .main-page .doings{
+        padding: 5px
+    }
+}
