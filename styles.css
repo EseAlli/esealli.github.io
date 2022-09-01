@@ -5,9 +5,10 @@
 }
 
 html, body{
-    background-color: #FFFFE3;
+    /* background-color: #FFFFE3; */
+
     color: #000000;
-    font-family: 'Bonny', sans-serif;
+    font-family: 'Satoshi', sans-serif;
     overflow: hidden;
 }
 
@@ -17,45 +18,63 @@ a{
 
 .main-page{
     height: 100vh;
-    background-color: #FFFFE3;
-    display: grid;
     overflow: hidden;
     width: 100%;
-    grid-template-columns: 35% 65%;
-    margin: auto 32px
+    align-items: center;
+    margin: auto
 }
 
-.main-page .basic-info{
-    padding-top: 70px;
-    border-right: 1px solid #999;
+.main-page .basic-info-container{
+    margin: 10px;
+    padding: 20px;
+    max-width: 400px
 }
 
-.main-page .basic-info h1{
-    font-size: 7rem;
-    font-weight: 400;
-    color: #454040
+.basic-info{
+    padding: 20px;
+    border: 3px solid #999;
+    box-shadow: 3px 3px 2px 4px rgb(0 0 0 / 20%);
+    letter-spacing: 0.1em;
 }
 
-.main-page .basic-info .title{
-    font-size: 24px;
+.basic-info h1{
+    font-size: 1.75rem;
+    line-height: 1.25em;
+    font-weight: 900;
+}
+
+.basic-info .role{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.basic-info .title{
+    margin-top: 8px;
+    font-size: 16px;
 }
 
 .main-page .info{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 15px 15px 0px 15px;
+    /* padding: 15px 15px 0px 15px; */
+    margin: 10px auto auto 10px;
+    padding: 20px;
+    font-family: 'Cabinet Grotesk', sans-serif;
 }
 
 .intro{
-    padding: 30px 30px 0px 30px;
-    text-transform: uppercase;
-    font-size: 24px;
+    font-size: 22px;
+}
+
+.intro p{
+    line-height: 45px;
 }
 
 .main-page .doings{
     border-top: 1px solid #999;
-    padding: 30px 0px 0px 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-size: 24px;
     font-weight: 400;
 }
@@ -67,6 +86,7 @@ a{
 .projects li{
     list-style-position: inside;
     margin-bottom: 5px;
+    font-size: 22px;
 }
 
 .projects a{
@@ -75,6 +95,36 @@ a{
 
 .doings .blog{
     margin-top: 30px;
+}
+
+.socials{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 25px;
+    border-top: 3px solid #999;
+    box-shadow: 3px 3px 2px 4px rgb(0 0 0 / 20%);
+    padding: 5px 20px;   
+}
+
+.list li{
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.list li:hover{
+    cursor: pointer;
+}
+
+.list .resume{
+    font-weight: 600;
+    color: palevioletred;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -102,19 +152,35 @@ a{
 }
 
 @media (max-width: 600px) {
-    .main-page{
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        overflow: auto;
-    }
-
-    .main-page .basic-info{
-        padding: 20px
+    .main-page .basic-info-container{
+        padding: 8px
     }
 
     .main-page .basic-info h1{
-        font-size: 32px;
+        font-size: 26px;
+    }
+
+    .main-page .basic-info{
+        box-shadow: none;
+        border: none;
+        padding: 0px;
+    }
+
+    .basic-info .role{
+        font-size: 22px;
+    }
+
+    .basic-info .title{
+        font-size: 12px;
+    }
+
+    .main-page .info{
+        padding: 0px 8px;
+    }
+
+    .info p{
+        font-size: 16px;
+        line-height: 30px;
     }
 
     .intro{
@@ -125,5 +191,17 @@ a{
 
     .main-page .doings{
         padding: 5px
+    }
+    .projects li{
+        font-size: 16px;
+    }
+
+    .list{
+        padding: 5px;
+    }
+    
+    .list li{
+        font-weight: 500;
+        font-size: 16px;
     }
 }
