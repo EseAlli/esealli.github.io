@@ -27,7 +27,6 @@ a{
 .main-page .basic-info-container{
     margin: 10px;
     padding: 20px;
-    max-width: 400px
 }
 
 .basic-info{
@@ -101,6 +100,8 @@ a{
     bottom: 0;
     position: fixed;
     width: 100%;
+    background-color: #000000;
+    color: white;
 }
 
 .list{
@@ -133,12 +134,15 @@ a{
         grid-template-columns: 45% 55%;
         overflow: auto;
     }
+    .main-page .basic-info-container{
+        max-width: 400px;
+    }
     .main-page .basic-info{
         padding: 20px;
         font-weight: 600;
     }
     .main-page .basic-info h1{
-        font-size: 64px;
+        font-size: 1.2rem;
         font-weight: 600;
     }
 
@@ -175,7 +179,7 @@ a{
     }
 
     .main-page .info{
-        padding: 0px 8px;
+        padding: 0px 8px 32px 8px;
     }
 
     .info p{
@@ -197,7 +201,8 @@ a{
     }
 
     .list{
-        padding: 5px;
+        padding: 8px 10px;
+        border-top: 2px solid black
     }
     
     .list li{
