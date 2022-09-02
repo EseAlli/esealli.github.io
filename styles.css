@@ -15,7 +15,6 @@ a{
 
 .main-page{
     height: 100vh;
-    overflow: hidden;
     width: 100%;
     align-items: center;
     margin: auto
@@ -128,7 +127,6 @@ a{
     .main-page{
         margin: auto;
         grid-template-columns: 45% 55%;
-        overflow: auto;
     }
     .main-page .basic-info-container{
         max-width: 400px;
