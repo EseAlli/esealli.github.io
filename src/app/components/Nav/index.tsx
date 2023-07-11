@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { RiLinkedinLine } from "react-icons/ri";
 import { VscGithubAlt } from "react-icons/vsc";
+import { FaHashnode } from "react-icons/fa6";
 
 const Nav = () => {
   const [show, setShow] = useState(false);
@@ -26,21 +27,9 @@ const Nav = () => {
 
   return (
     <>
-      <div
-        className={`${
-          colorChange ? "bg-black text-lime" : "bg-lime text-black"
-        } md:flex w-full justify-end hidden`}
-      >
-        <a
-          className="md:text-xl px-3 py-4 underline hover:font-bold font-medium"
-          href="https://eseoghenealli.hashnode.dev/"
-        >
-          Blog
-        </a>
-      </div>
-      <nav className="fixed bg-transparent bottom-0 md:top-0 md:left-0 w-full md:w-auto text-2xl">
+      <nav className="fixed bg-transparent bottom-0 md:top-0 md:left-0 w-full md:w-auto text-2xl z-50">
         <div
-          className={`${show && "h-screen"} ${
+          className={`${show ? "h-screen" : ""} ${
             colorChange ? "bg-black text-lime" : "bg-lime text-black"
           } flex h-full md:pb-6 lg:pb-10 px-2 md:px-3`}
         >
@@ -55,9 +44,25 @@ const Nav = () => {
               <ul className="gap-y-3 flex flex-col">
                 <li>About</li>
                 <li>Projects</li>
-                <li className="flex gap-2">
-                  <RiLinkedinLine />
-                  <VscGithubAlt />
+                <li className="flex gap-2 items-center ">
+                  <a
+                    href="https://www.linkedin.com/in/ese-alli/"
+                    className="hover:animate-pulse"
+                  >
+                    <RiLinkedinLine />
+                  </a>
+                  <a
+                    href="https://github.com/EseAlli/"
+                    className="hover:animate-pulse"
+                  >
+                    <VscGithubAlt />
+                  </a>
+                  <a
+                    href="https://eseoghenealli.hashnode.dev/"
+                    className="hover:animate-pulse"
+                  >
+                    <FaHashnode />
+                  </a>
                 </li>
               </ul>
             </li>

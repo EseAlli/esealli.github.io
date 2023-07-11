@@ -1,23 +1,40 @@
+import Image from "next/image";
 import React from "react";
+import { RiArrowDownFill } from "react-icons/ri";
 
 const Header = () => {
   return (
-    <div className="bg-black min-h-screen text-lime">
-      <div className="md:ml-[150px] py-8 md:py-16 lg:py-24">
+    <div className="bg-black min-h-screen text-lime flex w-full md:items-center relative">
+      <div className="md:ml-[150px] py-8 md:py-16 lg:py-24 ">
         <div className="container mx-auto px-4">
-          <div className="">
+          <div className="typewriter">
             <h1 className="text-xl md:text-3xl lg:text-9xl uppercase font-bold">
-              Hello, <br /> <span className="w-max">I am Ese</span>
+              Hello, <span className="w-max flex-wrap">I am Ese Alli</span>
             </h1>
-            <p className="mt-4 md:mt-8 max-w-xl tracking-widest">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore
-              ratione qui dolorem nam quia repellat quasi, dolore illo provident
-              necessitatibus nostrum, et, nobis laboriosam optio est iste dolor
-              officia! Eum. Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Quas praesentium quisquam dolorum ab iusto laborum?
-              Voluptatem optio ipsa voluptates quos iste eveniet, similique ex
-              unde dolor molestiae soluta nobis quidem!
+            <p className="mt-4 md:mt-8 max-w-xl tracking-widest font-medium">
+              Frontend Engineer
             </p>
+          </div>
+          <div className="absolute right-0 top-0 animate-pulse group">
+            <a
+              href="https://open.spotify.com/playlist/2KSyukQagh8wrSd9h6eDpF?si=f1e30fa026a14f07"
+              target="_blank"
+            >
+              <Image
+                src="/music-boo.svg"
+                alt="music-boo"
+                width={150}
+                height={150}
+              />
+            </a>
+
+            <p className="text-lime text-xs hidden group-hover:block">
+              Check out my playlist
+            </p>
+          </div>
+
+          <div className="absolute bottom-14 left-0 right-0 w-12 mx-auto animate-bounce">
+            <RiArrowDownFill size="4rem" />
           </div>
         </div>
       </div>
