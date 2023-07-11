@@ -19,14 +19,18 @@ const About = () => {
               <div className="">
                 <p className="font-bold">ABOUT</p>
                 <p className="mt-4 md:mt-8 max-w-xl tracking-widest md:text-sm text-base lg:text-base">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Labore ratione qui dolorem nam quia repellat quasi, dolore
-                  illo provident necessitatibus nostrum, et, nobis laboriosam
-                  optio est iste dolor officia! Eum. Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Quas praesentium quisquam
-                  dolorum ab iusto laborum? Voluptatem optio ipsa voluptates
-                  quos iste eveniet, similique ex unde dolor molestiae soluta
-                  nobis quidem!
+                  I am a passionate Frontend Engineer with <b>3+ years</b> of
+                  experience and proficiency in <b>JavaScript</b> and {"It's"}{" "}
+                  libraries. I specialize in designing and developing web
+                  applications that deliver outstanding user experiences. In
+                  addition to my technical expertise, I love sharing my
+                  knowledge and insights on technology. I am also passionate
+                  about <b>empowering women</b> and <b>promoting diversity</b>{" "}
+                  in the tech industry. As a collaborator and team player, I
+                  have experience working with cross-functional teams to deliver
+                  successful projects. My <i>super powers</i> are my{" "}
+                  <b>ambition</b> and my
+                  <b> ability to learn anything</b>.
                 </p>
               </div>
             </div>
