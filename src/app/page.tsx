@@ -5,6 +5,7 @@ import PerfectScrollbar from "react-perfect-scrollbar";
 import { useRouter } from "next/navigation";
 import Header from "./components/Header";
 import About from "./components/About";
+import Projects from "./components/Projects";
 
 const Page = () => {
   const router = useRouter();
@@ -17,6 +18,7 @@ const Page = () => {
     <>
       <Header />
       <About />
+      <Projects />
     </>
   );
 };

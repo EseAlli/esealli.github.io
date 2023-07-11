@@ -3,6 +3,7 @@ import "react-perfect-scrollbar/dist/css/styles.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body className="min-h-screen">
         <Nav />
         {children}
+        <Footer />
       </body>
     </html>
   );
