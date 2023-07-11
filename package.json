@@ -10,7 +10,7 @@
     "deploy": "gh-pages -d build",
     "lint": "next lint"
   },
-  "homepage": "",
+  "homepage": "http://EseAlli.github.io/esealli.github.io",
   "dependencies": {
     "@types/node": "20.4.1",
     "@types/react": "18.2.14",
