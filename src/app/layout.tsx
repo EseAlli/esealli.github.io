@@ -1,4 +1,5 @@
 import "./globals.css";
+import "react-perfect-scrollbar/dist/css/styles.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Nav from "./components/Nav";
