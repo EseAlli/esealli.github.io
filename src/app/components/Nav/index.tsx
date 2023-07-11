@@ -43,13 +43,13 @@ const Nav = () => {
             </li>
             <li className="pt-12">
               <ul className="gap-y-3 flex flex-col">
-                <li>
+                <li onClick={handleClick}>
                   <AnchorLink href="#about">About</AnchorLink>
                 </li>
-                <li>
+                <li onClick={handleClick}>
                   <AnchorLink href="#projects">Projects</AnchorLink>
                 </li>
-                <li className="flex gap-2 items-center ">
+                <li className="flex gap-2 items-center" onClick={handleClick}>
                   <a
                     href="https://www.linkedin.com/in/ese-alli/"
                     className="hover:animate-pulse"
