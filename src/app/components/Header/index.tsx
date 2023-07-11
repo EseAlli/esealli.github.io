@@ -24,7 +24,7 @@ const Header = () => {
               target="_blank"
             >
               <Image
-                src="/music-boo.svg"
+                src="/nextjs-github-pages/music-boo.svg"
                 alt="music-boo"
                 width={150}
                 height={150}
