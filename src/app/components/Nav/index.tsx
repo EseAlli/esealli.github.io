@@ -36,7 +36,7 @@ const Nav = () => {
         >
           <ul className={`${show ? "flex flex-col px-4" : "hidden"} w-full`}>
             <li
-              className="pt-3 items-end md:ml-12 flex text-lg underline hover:cursor-pointer"
+              className="pt-3 items-end md:ml-12 flex text-lg hover:underline hover:cursor-pointer"
               onClick={handleClick}
             >
               close
