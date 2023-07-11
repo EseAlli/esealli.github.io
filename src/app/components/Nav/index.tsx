@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import { RiLinkedinLine } from "react-icons/ri";
 import { VscGithubAlt } from "react-icons/vsc";
 import { FaHashnode } from "react-icons/fa6";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Nav = () => {
   const [show, setShow] = useState(false);
@@ -42,8 +43,12 @@ const Nav = () => {
             </li>
             <li className="pt-12">
               <ul className="gap-y-3 flex flex-col">
-                <li>About</li>
-                <li>Projects</li>
+                <li>
+                  <AnchorLink href="#about">About</AnchorLink>
+                </li>
+                <li>
+                  <AnchorLink href="#projects">Projects</AnchorLink>
+                </li>
                 <li className="flex gap-2 items-center ">
                   <a
                     href="https://www.linkedin.com/in/ese-alli/"

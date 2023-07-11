@@ -4,7 +4,10 @@ import { RiArrowDownFill } from "react-icons/ri";
 
 const Header = () => {
   return (
-    <div className="bg-black min-h-screen text-lime flex w-full items-center relative">
+    <section
+      id="home"
+      className="bg-black min-h-screen text-lime flex w-full items-center relative"
+    >
       <div className="md:ml-[100px] xl:ml-[150px] py-16 lg:py-24 ">
         <div className="container mx-auto px-4">
           <div className="typewriter">
@@ -38,7 +41,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

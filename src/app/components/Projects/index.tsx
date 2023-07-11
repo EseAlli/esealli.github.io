@@ -44,7 +44,6 @@ const Projects = () => {
     url: string;
     img?: StaticImport | string;
   }) => {
-    console.log(img);
     return (
       <div
         className={`${className} w-full py-2 md:py-6 border-b-white border-b group relative`}
@@ -71,7 +70,10 @@ const Projects = () => {
     );
   };
   return (
-    <div className="bg-black text-white min-h-screen flex md:justify-center md:items-center w-full">
+    <section
+      id="projects"
+      className="bg-black text-white min-h-screen flex md:justify-center md:items-center w-full"
+    >
       <div className="md:ml-[100px] py-8 md:py-16 lg:py-24 w-full">
         <div className="container mx-auto px-4">
           <p className="mb-5 lg:mb-12 uppercase text-lime">Projects</p>
@@ -92,7 +94,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
