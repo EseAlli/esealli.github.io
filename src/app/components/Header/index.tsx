@@ -4,11 +4,11 @@ import { RiArrowDownFill } from "react-icons/ri";
 
 const Header = () => {
   return (
-    <div className="bg-black min-h-screen text-lime flex w-full md:items-center relative">
-      <div className="md:ml-[150px] py-8 md:py-16 lg:py-24 ">
+    <div className="bg-black min-h-screen text-lime flex w-full items-center relative">
+      <div className="md:ml-[100px] xl:ml-[150px] py-16 lg:py-24 ">
         <div className="container mx-auto px-4">
           <div className="typewriter">
-            <h1 className="text-xl md:text-3xl lg:text-9xl uppercase font-bold">
+            <h1 className="text-3xl md:text-6xl xl:text-9xl uppercase font-bold">
               Hello, <span className="w-max flex-wrap">I am Ese Alli</span>
             </h1>
             <p className="mt-4 md:mt-8 max-w-xl tracking-widest font-medium">
