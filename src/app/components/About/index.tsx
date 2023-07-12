@@ -14,16 +14,27 @@ const About = () => {
               <Image
                 src="/powerful.svg"
                 alt="powerful"
-                width={400}
-                height={400}
+                width={250}
+                height={250}
               />
+              <div>
+                <p className="uppercase font-semibold my-2">Skills</p>
+                <ul className="grid grid-cols-2 ml-3 lg:grid-cols-3 list-disc md:ml-6">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Reactjs</li>
+                  <li>TypeScript</li>
+                </ul>
+              </div>
             </div>
+
             <div>
               <div className="">
                 <p className="font-bold">ABOUT</p>
-                <p className="mt-4 md:mt-8 max-w-xl tracking-widest md:text-sm text-base lg:text-base">
+                <p className="mt-3 md:mt-8 max-w-xl tracking-widest md:text-sm text-base lg:text-base">
                   I am a passionate Frontend Engineer with <b>3+ years</b> of
-                  experience and proficiency in <b>JavaScript</b> and {"It's"}{" "}
+                  experience and proficiency in <b>JavaScript</b> and {"Its"}{" "}
                   libraries. I specialize in designing and developing web
                   applications that deliver outstanding user experiences. In
                   addition to my technical expertise, I love sharing my

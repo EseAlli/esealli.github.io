@@ -20,7 +20,7 @@ const Header = () => {
           </div>
           <div className="absolute right-0 top-0 animate-pulse group">
             <a
-              href="https://open.spotify.com/playlist/2KSyukQagh8wrSd9h6eDpF?si=f1e30fa026a14f07"
+              href="https://open.spotify.com/playlist/6vnqp8QdSMu9aIbBSImLwR?si=84b84a0ae56e4aa0"
               target="_blank"
             >
               <Image
