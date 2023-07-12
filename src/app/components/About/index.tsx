@@ -12,7 +12,7 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-y-3 md:gap-x-7 lg:gap-x-4">
             <div>
               <Image
-                src="/nextjs-github-pages/Powerful-pana.svg"
+                src="/Powerful-pana.svg"
                 alt="powerful"
                 width={400}
                 height={400}
