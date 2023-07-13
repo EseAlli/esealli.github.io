@@ -24,8 +24,8 @@ const Header = () => {
               target="_blank"
             >
               <Image
-                src="/music.svg"
-                alt="music-boo"
+                src="/playlist.svg"
+                alt="playlist"
                 width={150}
                 height={150}
               />
