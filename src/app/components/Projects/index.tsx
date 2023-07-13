@@ -70,13 +70,13 @@ const Projects = () => {
         className={`${className} w-full py-2 md:py-6 border-b-white border-b group relative`}
       >
         <a
-          className="text-xl md:text-2xl uppercase font-extralight hover:cursor-pointer hover:text-lime hover:font-medium"
+          className="text-xl md:text-2xl uppercase font-extralight hover:cursor-pointer hover:text-lightblue hover:font-medium"
           href={url}
           target="_blanka"
         >
           {name}
         </a>
-        <div className="flex items-center gap-2 text-lime">
+        <div className="flex items-center gap-2 text-lightblue">
           {tags.map((tag, index) => {
             return <div key={index}>{getTagIcon(tag)}</div>;
           })}
@@ -97,7 +97,7 @@ const Projects = () => {
     >
       <div className="md:ml-[100px] py-8 md:py-16 lg:py-24 w-full">
         <div className="container mx-auto px-4">
-          <p className="mb-5 lg:mb-12 uppercase text-lime">Projects</p>
+          <p className="mb-5 lg:mb-12 uppercase text-lightblue">Projects</p>
           <div className="grid md:grid-cols-2 gap-y-5 md:gap-y-0 w-full md:gap-x-5 items-center">
             <div>
               <p className="uppercase mb-2 font-semibold">Work</p>
@@ -135,7 +135,7 @@ const Projects = () => {
             </div>
           </div>
           <a
-            className="text-lime flex gap-2 items-center mt-2"
+            className="text-lightblue flex gap-2 items-center mt-2"
             href="/frontend-playground/"
           >
             View More <BiArrowToRight />

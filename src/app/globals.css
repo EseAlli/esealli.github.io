@@ -15,7 +15,7 @@ body {
 
 .typewriter span {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 0.15em solid #77fb39; /* The typwriter cursor */
+  border-right: 0.15em solid #6fa8dc; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   letter-spacing: 0.15em; /* Adjust as needed */
   animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
@@ -39,6 +39,6 @@ body {
     border-color: transparent;
   }
   50% {
-    border-color: #77fb39;
+    border-color: #6fa8dc;
   }
 }

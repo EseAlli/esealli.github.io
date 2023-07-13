@@ -31,7 +31,7 @@ const Nav = () => {
       <nav className="fixed bg-transparent bottom-0 md:top-0 md:left-0 w-full md:w-auto text-2xl z-50">
         <div
           className={`${show ? "h-screen" : ""} ${
-            colorChange ? "bg-black text-lime" : "bg-lime text-black"
+            colorChange ? "bg-black text-lightblue" : "bg-lightblue text-black"
           } flex h-full md:pb-6 lg:pb-10 px-2 md:px-3`}
         >
           <ul className={`${show ? "flex flex-col px-4" : "hidden"} w-full`}>

@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <section
       id="home"
-      className="bg-black min-h-screen text-lime flex w-full items-center relative"
+      className="bg-black min-h-screen text-lightblue flex w-full items-center relative"
     >
       <div className="md:ml-[100px] xl:ml-[150px] py-16 lg:py-24 ">
         <div className="container mx-auto px-4">
@@ -31,7 +31,7 @@ const Header = () => {
               />
             </a>
 
-            <p className="text-lime text-xs hidden group-hover:block">
+            <p className="text-lightblue text-xs hidden group-hover:block">
               Check out my playlist
             </p>
           </div>

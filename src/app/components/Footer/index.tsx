@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-lime flex justify-end">
+    <div className="bg-lightblue flex justify-end">
       <p className="py-3 px-4">
         &copy; 2023 - All rights reserved, Eseoghene Alli
       </p>
