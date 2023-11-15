@@ -33,7 +33,7 @@ const About = () => {
               <div className="">
                 <p className="font-bold">ABOUT</p>
                 <p className="mt-3 md:mt-8 max-w-xl tracking-widest md:text-sm text-base lg:text-base">
-                  I am a passionate Frontend Engineer with <b>3+ years</b> of
+                  I am a passionate Frontend Engineer with <b>4 years</b> of
                   experience and proficiency in <b>JavaScript</b> and {"Its"}{" "}
                   libraries. I specialize in designing and developing web
                   applications that deliver outstanding user experiences. In
